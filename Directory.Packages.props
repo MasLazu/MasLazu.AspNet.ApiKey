@@ -1,0 +1,21 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+    <ItemGroup>
+    <PackageVersion Include="MasLazu.AspNet.Framework.Application" Version="1.0.0-preview.6" />
+    <PackageVersion Include="MasLazu.AspNet.Framework.Domain" Version="1.0.0-preview.6" />
+    <PackageVersion Include="Microsoft.Extensions.DependencyInjection" Version="9.0.9" />
+    <PackageVersion Include="MasLazu.AspNet.Framework.EfCore" Version="1.0.0-preview.6" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore" Version="9.0.9" />
+    <PackageVersion Include="FastEndpoints" Version="7.0.1" />
+    <PackageVersion Include="MasLazu.AspNet.Framework.Endpoint" Version="1.0.0-preview.6" />
+    <PackageVersion Include="coverlet.collector" Version="6.0.4" />
+    <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
+    <PackageVersion Include="Moq" Version="4.20.72" />
+    <PackageVersion Include="xunit" Version="2.9.3" />
+    <PackageVersion Include="xunit.runner.visualstudio" Version="3.1.4" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.InMemory" Version="9.0.9" />
+    <PackageVersion Include="FastEndpoints.Testing" Version="7.0.1" />
+  </ItemGroup>
+</Project>

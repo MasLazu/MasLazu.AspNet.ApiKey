@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FastEndpoints" />
+    <PackageReference Include="MasLazu.AspNet.Framework.Endpoint" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MasLazu.AspNet.ApiKey.Abstraction\MasLazu.AspNet.ApiKey.Abstraction.csproj" />
+  </ItemGroup>
+
+</Project>
