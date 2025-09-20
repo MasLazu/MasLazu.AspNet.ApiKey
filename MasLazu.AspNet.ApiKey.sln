@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{36AB1F45-8837-4BCE-8144-6790BCA1E95F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasLazu.AspNet.ApiKey", "src\MasLazu.AspNet.ApiKey\MasLazu.AspNet.ApiKey.csproj", "{0F8A72F1-FCE7-48E0-AC0C-4F22B06E0A10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasLazu.AspNet.ApiKey.Abstraction", "src\MasLazu.AspNet.ApiKey.Abstraction\MasLazu.AspNet.ApiKey.Abstraction.csproj", "{5BB39077-7237-423A-B1CE-F6A88E40235F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasLazu.AspNet.ApiKey.Domain", "src\MasLazu.AspNet.ApiKey.Domain\MasLazu.AspNet.ApiKey.Domain.csproj", "{F2E23390-5B5C-496C-9E16-0B3686FE11B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasLazu.AspNet.ApiKey.EfCore", "src\MasLazu.AspNet.ApiKey.EfCore\MasLazu.AspNet.ApiKey.EfCore.csproj", "{82D9C266-3DEA-4D98-BCE2-CF630FADD224}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasLazu.AspNet.ApiKey.Endpoint", "src\MasLazu.AspNet.ApiKey.Endpoint\MasLazu.AspNet.ApiKey.Endpoint.csproj", "{4C0C50EC-1EB9-449E-A849-2083A654819D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{B7B127C1-DD7B-4295-BC4D-F8D613DA1C1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasLazu.AspNet.ApiKey.Test", "test\MasLazu.AspNet.ApiKey.Test\MasLazu.AspNet.ApiKey.Test.csproj", "{BFABD82C-5EFD-4131-BABC-5E9E172F33E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasLazu.AspNet.ApiKey.Abstraction.Test", "test\MasLazu.AspNet.ApiKey.Abstraction.Test\MasLazu.AspNet.ApiKey.Abstraction.Test.csproj", "{6C8F3A96-62D4-4F5E-BF14-121DC6C756FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasLazu.AspNet.ApiKey.Domain.Test", "test\MasLazu.AspNet.ApiKey.Domain.Test\MasLazu.AspNet.ApiKey.Domain.Test.csproj", "{80DA256C-827C-41B6-B8AA-772DDCA6792E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasLazu.AspNet.ApiKey.EfCore.Test", "test\MasLazu.AspNet.ApiKey.EfCore.Test\MasLazu.AspNet.ApiKey.EfCore.Test.csproj", "{DE802EB0-B1D7-4ADA-BF52-B2C7A5CB191E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasLazu.AspNet.ApiKey.Endpoint.Test", "test\MasLazu.AspNet.ApiKey.Endpoint.Test\MasLazu.AspNet.ApiKey.Endpoint.Test.csproj", "{B0338442-009E-4584-ABBF-593CF4F92C06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F8A72F1-FCE7-48E0-AC0C-4F22B06E0A10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F8A72F1-FCE7-48E0-AC0C-4F22B06E0A10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F8A72F1-FCE7-48E0-AC0C-4F22B06E0A10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F8A72F1-FCE7-48E0-AC0C-4F22B06E0A10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BB39077-7237-423A-B1CE-F6A88E40235F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BB39077-7237-423A-B1CE-F6A88E40235F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BB39077-7237-423A-B1CE-F6A88E40235F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BB39077-7237-423A-B1CE-F6A88E40235F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2E23390-5B5C-496C-9E16-0B3686FE11B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2E23390-5B5C-496C-9E16-0B3686FE11B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2E23390-5B5C-496C-9E16-0B3686FE11B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2E23390-5B5C-496C-9E16-0B3686FE11B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82D9C266-3DEA-4D98-BCE2-CF630FADD224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82D9C266-3DEA-4D98-BCE2-CF630FADD224}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82D9C266-3DEA-4D98-BCE2-CF630FADD224}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82D9C266-3DEA-4D98-BCE2-CF630FADD224}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C0C50EC-1EB9-449E-A849-2083A654819D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C0C50EC-1EB9-449E-A849-2083A654819D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C0C50EC-1EB9-449E-A849-2083A654819D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C0C50EC-1EB9-449E-A849-2083A654819D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFABD82C-5EFD-4131-BABC-5E9E172F33E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFABD82C-5EFD-4131-BABC-5E9E172F33E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFABD82C-5EFD-4131-BABC-5E9E172F33E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFABD82C-5EFD-4131-BABC-5E9E172F33E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C8F3A96-62D4-4F5E-BF14-121DC6C756FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C8F3A96-62D4-4F5E-BF14-121DC6C756FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C8F3A96-62D4-4F5E-BF14-121DC6C756FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C8F3A96-62D4-4F5E-BF14-121DC6C756FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80DA256C-827C-41B6-B8AA-772DDCA6792E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80DA256C-827C-41B6-B8AA-772DDCA6792E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80DA256C-827C-41B6-B8AA-772DDCA6792E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80DA256C-827C-41B6-B8AA-772DDCA6792E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE802EB0-B1D7-4ADA-BF52-B2C7A5CB191E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE802EB0-B1D7-4ADA-BF52-B2C7A5CB191E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE802EB0-B1D7-4ADA-BF52-B2C7A5CB191E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE802EB0-B1D7-4ADA-BF52-B2C7A5CB191E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0338442-009E-4584-ABBF-593CF4F92C06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0338442-009E-4584-ABBF-593CF4F92C06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0338442-009E-4584-ABBF-593CF4F92C06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0338442-009E-4584-ABBF-593CF4F92C06}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0F8A72F1-FCE7-48E0-AC0C-4F22B06E0A10} = {36AB1F45-8837-4BCE-8144-6790BCA1E95F}
+		{5BB39077-7237-423A-B1CE-F6A88E40235F} = {36AB1F45-8837-4BCE-8144-6790BCA1E95F}
+		{F2E23390-5B5C-496C-9E16-0B3686FE11B2} = {36AB1F45-8837-4BCE-8144-6790BCA1E95F}
+		{82D9C266-3DEA-4D98-BCE2-CF630FADD224} = {36AB1F45-8837-4BCE-8144-6790BCA1E95F}
+		{4C0C50EC-1EB9-449E-A849-2083A654819D} = {36AB1F45-8837-4BCE-8144-6790BCA1E95F}
+		{BFABD82C-5EFD-4131-BABC-5E9E172F33E6} = {B7B127C1-DD7B-4295-BC4D-F8D613DA1C1D}
+		{6C8F3A96-62D4-4F5E-BF14-121DC6C756FD} = {B7B127C1-DD7B-4295-BC4D-F8D613DA1C1D}
+		{80DA256C-827C-41B6-B8AA-772DDCA6792E} = {B7B127C1-DD7B-4295-BC4D-F8D613DA1C1D}
+		{DE802EB0-B1D7-4ADA-BF52-B2C7A5CB191E} = {B7B127C1-DD7B-4295-BC4D-F8D613DA1C1D}
+		{B0338442-009E-4584-ABBF-593CF4F92C06} = {B7B127C1-DD7B-4295-BC4D-F8D613DA1C1D}
+	EndGlobalSection
+EndGlobal

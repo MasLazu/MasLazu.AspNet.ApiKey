@@ -257,7 +257,6 @@ ClientBin/
 *.suo
 *.ntvs*
 *.njsproj
-*.sln
 *.sw?
 
 # Visual Studio Code
