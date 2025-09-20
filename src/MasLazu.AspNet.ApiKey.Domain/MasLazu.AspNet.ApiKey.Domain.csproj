@@ -5,10 +5,27 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+
+    <!-- NuGet Package Properties -->
+    <PackageId>MasLazu.AspNet.ApiKey.Domain</PackageId>
+    <Authors>MasLazu</Authors>
+    <Company>MasLazu</Company>
+    <Description>Domain layer for MasLazu ASP.NET API Key management. Contains entities and business objects for API key management.</Description>
+    <PackageTags>aspnetcore;apikey;domain;entities;business</PackageTags>
+    <RepositoryUrl>https://github.com/maslazu/MasLazu.AspNet.ApiKey</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://github.com/maslazu/MasLazu.AspNet.ApiKey</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageReleaseNotes>See RELEASES.md for release notes.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="MasLazu.AspNet.Framework.Domain" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="" />
   </ItemGroup>
 
 </Project>

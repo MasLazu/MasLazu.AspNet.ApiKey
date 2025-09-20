@@ -5,10 +5,27 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+
+    <!-- NuGet Package Properties -->
+    <PackageId>MasLazu.AspNet.ApiKey.Abstraction</PackageId>
+    <Authors>MasLazu</Authors>
+    <Company>MasLazu</Company>
+    <Description>Abstraction layer for MasLazu ASP.NET API Key management. Contains interfaces and contracts for API key operations.</Description>
+    <PackageTags>aspnetcore;apikey;abstraction;interfaces;contracts</PackageTags>
+    <RepositoryUrl>https://github.com/maslazu/MasLazu.AspNet.ApiKey</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://github.com/maslazu/MasLazu.AspNet.ApiKey</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageReleaseNotes>See RELEASES.md for release notes.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="MasLazu.AspNet.Framework.Application" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="" />
   </ItemGroup>
 
 </Project>

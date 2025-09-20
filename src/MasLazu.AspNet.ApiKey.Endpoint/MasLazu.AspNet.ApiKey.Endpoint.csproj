@@ -5,6 +5,19 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+
+    <!-- NuGet Package Properties -->
+    <PackageId>MasLazu.AspNet.ApiKey.Endpoint</PackageId>
+    <Authors>MasLazu</Authors>
+    <Company>MasLazu</Company>
+    <Description>API endpoints for MasLazu ASP.NET API Key management. Contains REST API endpoints using FastEndpoints.</Description>
+    <PackageTags>aspnetcore;apikey;endpoints;rest;fastendpoints</PackageTags>
+    <RepositoryUrl>https://github.com/maslazu/MasLazu.AspNet.ApiKey</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://github.com/maslazu/MasLazu.AspNet.ApiKey</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageReleaseNotes>See RELEASES.md for release notes.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
@@ -14,6 +27,10 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MasLazu.AspNet.ApiKey.Abstraction\MasLazu.AspNet.ApiKey.Abstraction.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="" />
   </ItemGroup>
 
 </Project>
